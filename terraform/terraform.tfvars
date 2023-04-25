@@ -1,0 +1,13 @@
+project_name = "bootcampde"
+environment = "prod"
+bucket_names = ["raw","processed","curated","scripts","athena"]
+db_username = "postgres"
+db_password = "postgres"
+key_pair_name = "key-pair-name"
+db_port = 3306
+vpc_group_name = "vpc-group-name-dms"
+vpc_group_description = "Allow access to environment"
+vpc_id = ["vpc_id"]
+subnet_id = "subnet_id"
+security_group_id_list = ["security_group_id_list"]
+athena_database_name = "vendas"
