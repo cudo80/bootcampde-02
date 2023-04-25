@@ -173,7 +173,9 @@ terraform {
 
 2. extraia o binário do terraform dentro da pasta "terraform".
 
-3. Execute o comando para inicializar o terraform e fazer o setup do bucket para o backend
+3. Configure as credenciais de acesso no arquivo terraform.tfvars
+
+4. Execute o comando para inicializar o terraform e fazer o setup do bucket para o backend
 
 ```console
 terraform init
